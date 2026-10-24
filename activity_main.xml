@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F6FC"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#263D91"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MY CV"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CURRICULUM VITAE"
+                android:textSize="14sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="6dp" />
+        </LinearLayout>
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esther Pendo"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#263D91"
+            android:gravity="center"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:id="@+id/txtProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ICT Student | Aspiring IT Professional"
+            android:textSize="16sp"
+            android:textColor="#526078"
+            android:gravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- About Me -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABOUT ME"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#263D91" />
+
+        <TextView
+            android:id="@+id/txtAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I am Esther Pendo, an ICT student at Lukenya University. I am interested in technology, problem-solving and continuous learning. I aim to develop my technical abilities and use technology to solve real-world problems."
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="22dp" />
+
+        <!-- Education -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDUCATION"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#263D91" />
+
+        <TextView
+            android:id="@+id/txtEducation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Institution: Lukenya University\nCourse: Information and Communication Technology (ICT)\nQualification: Update with your current qualification status"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="22dp" />
+
+        <!-- Achievements -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MY ACHIEVEMENTS"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#263D91" />
+
+        <TextView
+            android:id="@+id/txtAchievements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Achievements I am working towards"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:lineSpacingExtra="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="22dp" />
+
+        <!-- Skills -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MY SKILLS"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#263D91" />
+
+        <TextView
+            android:id="@+id/txtSkills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Computer skills\nCommunication\nTeamwork"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:lineSpacingExtra="7dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="22dp" />
+
+        <!-- Career Objective -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAREER OBJECTIVE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#263D91" />
+
+        <TextView
+            android:id="@+id/txtObjective"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To build a successful career in ICT by applying my knowledge, improving my technical skills and contributing to innovative technology solutions."
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="22dp" />
+
+        <!-- References -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REFERENCES"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#263D91" />
+
+        <TextView
+            android:id="@+id/txtReferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Available upon request."
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Footer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esther Pendo | My CV App"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="#263D91" />
+
+    </LinearLayout>
+</ScrollView>
