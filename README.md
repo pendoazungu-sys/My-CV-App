@@ -8,7 +8,7 @@ My CV App is a simple Android application that presents my personal profile, edu
 
 ## About Me
 
-My name is Esther Pendo. I am a graduate of Lukenya University, where I obtained a Diploma in Information and Communication Technology (ICT).
+My name is Esther Pendo. I am a graduate of Maasai National Polytechnic, where I obtained a Diploma in Information and Communication Technology (ICT).
 
 I am a motivated and responsible individual with computer skills, effective communication skills, teamwork abilities, and a willingness to learn.
 
