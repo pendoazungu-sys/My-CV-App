@@ -14,7 +14,7 @@ I am a motivated and responsible individual with computer skills, effective comm
 
 ## Education
 
-- **Institution:** Lukenya University
+- **Institution:** Maasai National Polytechnic
 - **Course:** Diploma in Information and Communication Technology (ICT)
 - **Status:** Graduated
 
