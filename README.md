@@ -57,3 +57,7 @@ This project is being developed as a personal CV Android application.
 ## Author
 
 **Esther Pendo**
+
+## App Screenshot
+
+![My CV App Screenshot](my-cv-screenshot.png)
